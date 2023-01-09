@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+    <script>
+        function papuga()
+        {
+            document.getElementById("wynik").innerHTML="PAPUGA"
+            document.getElementById("tresc").innerHTML="papuzeko papuzko <br>powiedz mi na uszko <br> nic nie powiem bos plotkarz, <br> powtorzysz kazdemu kogo spotkasz"
+        }
+        function zyrafa()
+        {
+            document.getElementById("wynik").innerHTML="ZYRAFA"
+            document.getElementById("tresc").innerHTML="zyrafa tym glownie zyje <br> ze w gore wyciaga szyje <br> a ja zazdroszze zyrafie <br> ja nie potrafie"
+        }
+        function krokodyl()
+        {
+            document.getElementById("wynik").innerHTML="KROKODYL"
+            document.getElementById("tresc").innerHTML="skad ty jestes krokodylu <br> ja znad  nilu <br> wypusc mnie na kilka chwil <br> to zawioze cie nad nil "
+        }
+        function zebra()
+        {
+            document.getElementById("wynik").innerHTML="ZEBRA"
+            document.getElementById("tresc").innerHTML="czy ta zebra jest prawdziwa <br> czy to tak naprawde bywa? <br> czy ty tez malarz z bozej laski <br> pomalowal osla w paski"
+        }
+        function wilk()
+        {
+            document.getElementById("wynik").innerHTML="WILK"
+            document.getElementById("tresc").innerHTML="powiem ci w slowach kilku <br> co mysle o tym wilku <br> gdyby nie byl na obrazku <br> zaraz cie zjadl gluptasku"
+        }
+    </script>
+</head>
+<body>
+    <center>
+    <div id="tabela">
+    <table id="dane">
+    <tr style="background-color: green;">
+            <td><img src="papuga1.png" id="papuga" onmousedown="papuga()"></td>
+            <td><img src="zyrafa1.png" id="zyrafa" onmousedown="zyrafa()"></td>
+            <td><img src="krokodyl1.png" id="krokodyl" onmousedown="krokodyl()"></td>
+            <td><img src="zebra1.png" id="zebra" onmousedown="zebra()"></td>
+            <td><img src="wilk1.png" id="wilk" onmousedown="wilk()"></td>
+        </tr>
+    </table>
+    </div>
+    <div id="wynik" style="background: rgb(0, 120, 248); text-align: center; font-size: 50px; width: 1200px; height: 50px; padding: 150px;"></div>
+    <div id="tresc" style="background: rgb(70, 154, 245);text-align: center; font-size: large; width: 1500px; height: 100px;"></div>
+    </center>
+</body>
+</html>

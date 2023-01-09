@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function koloruj(x)
+        {
+            if(x==1)
+            document.fgColor="blue"
+            if(x==2)
+            document.fgColor="red"
+            if(x==3)
+            document.fgColor="white"
+            if(x==4)
+            document.fgColor="purple"
+            if(x==5)
+            document.fgColor="pink"
+            if(x==6)
+            document.fgColor="yellow"
+        }
+    </script>
+</head>
+<body>
+    <h1 onmouseover="koloruj(1)" onmouseout="koloruj(2)">BEN</h1>
+    <h1 onmouseover="koloruj(3)" onmouseout="koloruj(4)">BENIASTY</h1>
+    <h1 onmouseover="koloruj(4)" onmouseout="koloruj(2)">BEN</h1>
+</body>
+</html>
